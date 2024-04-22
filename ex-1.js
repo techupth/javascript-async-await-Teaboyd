@@ -14,3 +14,8 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+function dataSet(data){
+  console.log(data);
+}
+
+getJohnProfile().then(dataSet);
