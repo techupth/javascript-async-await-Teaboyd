@@ -37,4 +37,4 @@ function pati1(zix){
   console.log(zix)
 };
 
-getJohnProfile().then(pati1),getJohnOrders().then(pati1);
+getJohnProfile().then(pati1).then(getJohnOrders).then(pati1);

@@ -14,10 +14,9 @@ let getJohnProfile = () => {
 // Start coding here
 async function FailedMessage(){
   try {
-    const Pass = await getJohnOrders();
+    let Pass = await getJohnProfile();
     console.log(Pass);
   }catch (error){
-  const Failed = await getJohnProfile();
   console.log(error);
   }
 }
