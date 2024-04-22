@@ -33,3 +33,8 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+function pati1(zix){
+  console.log(zix)
+};
+
+getJohnProfile().then(pati1),getJohnOrders().then(pati1);

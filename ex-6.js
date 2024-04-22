@@ -33,3 +33,12 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+async function twoway(){
+    const FirstExecute = await getJohnProfile();
+    console.log(FirstExecute)
+    const SecondExecute = await getJohnOrders();
+    console.log(SecondExecute);
+  };
+
+  twoway();
+  
